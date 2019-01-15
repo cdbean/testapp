@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "moduleA": "github:cdbean/moduleA",
-    "moduleB": "github:cdbean/moduleB",
+    "moduleB": "github:cdbean/moduleB#v2",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   }
