@@ -11,9 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moduleA": "github:cdbean/moduleA",
-    "moduleB": "github:cdbean/moduleB",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "moduleB": "github:cdbean/moduleB#v3",
+    "moduleA": "github:cdbean/moduleA"
   }
 }
