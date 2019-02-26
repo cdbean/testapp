@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "moduleB": "github:imdongchen/moduleB#v3",
-    "moduleA": "github:imdongchen/moduleA"
+    "moduleA": "github:imdongchen/moduleA",
+    "moduleC": "github:imdongchen/moduleC"
   }
 }
