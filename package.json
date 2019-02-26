@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moduleA": "github:cdbean/moduleA",
-    "moduleB": "github:cdbean/moduleB#v2",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "moduleA": "github:imdongchen/moduleA",
+    "moduleB": "github:imdongchen/moduleB#v2"
   }
 }
