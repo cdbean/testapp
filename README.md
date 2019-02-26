@@ -1,7 +1,14 @@
 # Treatment Two: app and module has the same dependency
 
 ## Setting
-`moduleB@v2` adds dependency on `moduleA`
+`moduleB@v2` adds dependency on `moduleA`. `package.json`:
+
+```
+"dependencies": {
+  "moduleA": "github:imdongchen/moduleA",
+  "moduleB": "github:imdongchen/moduleB#v2"
+}
+```
 
 ## Result
 The result is the same as the base setting. `moduleA` is installed once as root dependency and bundled once.
