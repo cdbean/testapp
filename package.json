@@ -1,17 +1,16 @@
 {
   "name": "app",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --entry ./index.js -o dist/index.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moduleB": "github:cdbean/moduleB#v3",
-    "moduleA": "github:cdbean/moduleA"
+    "moduleB": "github:imdongchen/moduleB#v3",
+    "moduleA": "github:imdongchen/moduleA"
   }
 }
