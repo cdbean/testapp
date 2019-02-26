@@ -4,16 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --entry ./index.js -o dist/index.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moduleA": "github:cdbean/moduleA",
-    "moduleB": "github:cdbean/moduleB",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "moduleA": "github:imdongchen/moduleA",
+    "moduleB": "github:imdongchen/moduleB"
   }
 }
